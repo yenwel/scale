@@ -255,3 +255,15 @@ body.impress-mouse-timeout {
 .impress-enabled #impress                 { pointer-events: auto }
 .impress-enabled #impress-toolbar         { pointer-events: auto }
 .impress-enabled #impress-console-button  { pointer-events: auto }
+
+/* Using the substep plugin, hide bullet points at first, then show them one by one. */
+#impress .step .substep {
+    opacity: 0;
+    display: none;
+}
+
+#impress .step .substep.substep-active {
+    opacity: 1;
+    transition: opacity 1s;
+    display: block;
+}
