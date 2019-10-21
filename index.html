@@ -37,40 +37,89 @@
         </div>   
 
         <div class="substep" >
-            <h1>Functional decomposition</h1>
+            <h2>Functional decomposition</h2>
             <img src="applecupcakecheesefunctionaldecomposition.png" alt="applecupcakecheesefunctionaldecomposition" height="250">
+            <p>Micro services, Kafka topics</p>
         </div>     
 
         <div class="substep" >
-            <h1>Duplication</h1>
+            <h2>Duplication</h2>
             <img src="applecupcakecheesecloning.png" alt="applecupcakecheesecloning" height="250">
+            <p>Caching, replication factor in Kafka partitions</p>
         </div>        
 
         <div class="substep" >
-            <h1>Partitioning</h1>
+            <h2>Partitioning</h2>
             <img src="applecupcakecheesepartitioning.png" alt="applecupcakecheesepartitioning" height="250">
+            <p>multi vs single tenancy, leader election</p>
         </div>
 
     </div>
 
     <div class="step" data-x="0" data-y="350" data-z="0" data-rotate-x="-90" data-rotate-z="90"
          data-goto-key-list="ArrowUp ArrowDown ArrowRight ArrowLeft o" data-goto-next-list="step-2 step-5 step-6 step-1 overview">
-        <p>CAP Theorem and Redis</p>
+        <h1>CAP Theorem and Redis</h1> 
+        <div class="substep" >
+            <img src="cap-theorem-triangle.png" alt="cap-theorem-triangle" height="450">
+            <p>Master Slave architecture </p>
+        </div>   
+
+        <div class="substep" >
+            <img src="cqrs.png" alt="cqrs" height="300">
+            <p>Actor model, CQRS?</p>
+        </div>   
+
     </div>
 
     <div class="step" data-x="0" data-y="-350" data-z="0" data-rotate-x="90" data-rotate-z="-90"
          data-goto-key-list="ArrowUp ArrowDown ArrowRight ArrowLeft o" data-goto-next-list="step-5 step-2 step-6 step-1 overview">
-        <p>PACELC Theorem and Consul</p>
+         <h1>PACELC and Consul</h1>
+         <div class="substep" > 
+            <img src="pacelc.png" alt="pacelc" height="290">
+        </div>   
+
+        <div class="substep" >
+            <img src="consul-arch-single.png" alt="consul-arch-single" height="350">
+        </div>     
+
+        <div class="substep" >
+            <img src="clientintegrations.png" alt="clientintegrations" height="300">
+        </div>        
+
+        <div class="substep" >
+            <img src="raft.png" alt="raft" height="250">
+        </div>
     </div>
 
     <div class="step" data-x="-350" data-y="0" data-z="0" data-rotate-y="-90" data-rotate-z="-180"
          data-goto-key-list="ArrowUp ArrowDown ArrowRight ArrowLeft o" data-goto-next-list="step-3 step-4 step-6 step-1 overview">
-        <p>CRDT's and NewSQL</p>
+        <h1>CRDT's and NewSQL</h1>
+        Cosmos DB, VoltDB, Google Spanner, SAP Hana DB
+
+        <div class="substep" > 
+            <img src="crdt.jpg" alt="crdt" height="290">
+        </div>   
+
+        <div class="substep" >
+            <img src="oldsqlsucks.png" alt="oldsqlsucks" height="350">
+        </div>     
+
+        <div class="substep" >
+            <img src="longlivenewsql.png" alt="longlivenewsql" height="200">
+        </div>     
+
     </div>
 
     <div class="step" data-x="0" data-y="0" data-z="-350" data-rotate-y="-180" data-rotate-z="-180"
          data-goto-key-list="ArrowUp ArrowDown ArrowRight ArrowLeft o" data-goto-next-list="step-3 step-4 step-2 step-5 overview">
-        <p>Economies and efficiencies of Scale</p>
+        <h1>Economies and efficiencies of Scale</h1>
+        <div class="substep" >
+            <img src="paretoefficiency.png" alt="pareto" height="350">
+        </div>     
+
+        <div class="substep" >
+            <img src="crs-irs-drs.png" alt="crs-irs-drs" height="300">
+        </div>  
     </div>
 
     <div id="overview" class="step" data-x="700" data-y="-100" data-z="1000" data-scale="1" style="pointer-events: none;">
